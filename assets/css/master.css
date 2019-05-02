@@ -1,0 +1,50 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 1vw;
+  font-family: Montserrat;
+  background-color: #fcbe19;
+  background-image: linear-gradient(121deg, #fcbe19 0%, #ff4a00 74%);
+  min-height: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 10vh);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+  color: black;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  color: #ddd;
+}
+
+img {
+  width: 250px;
+}
+
+#bottom-player {
+  background: #181818;
+  display: flex;
+  align-content: center;
+  bottom: 0vw;
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+}
+#bottom-player audio{
+  margin: auto 0;
+  width: 100%;
+}
